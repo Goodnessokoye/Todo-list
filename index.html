@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+<body>
+    <div class="container">
+    <div class="header">
+        <h3>
+            Task List
+        </h3>
+       <p class="new-task">
+        New Task
+       </p> 
+       <input class="MyInput" type="text">
+
+       <button class="add-task-button">
+           Add Task
+       </button>
+    </div>  
+    <div class="card" style="width: 100%;">
+        <div class="card-header">
+          Tasks
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" >Cras justo odio <i class="far fa-trash-alt"></i></li> 
+          <li class="list-group-item">Dapibus ac facilisis in <i class="far fa-trash-alt"></i></li>
+          <li class="list-group-item">Vestibulum at eros <i class="far fa-trash-alt"></i></li>
+        </ul>
+      </div>
+      <button class="clear-button"> 
+          Clear Tasks
+      </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

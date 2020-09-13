@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    height: 500px;
+    border: 1;
+}
+.container .header h3{
+    display: flex;
+    justify-content: center;
+}
+.container .header .new-task{
+    margin-bottom: 0;
+}
+.container .add-task-button{
+    width: 100px;
+}
+.container .card{
+    width:100%;
+    margin-top: 10px;
+}
+.container .card .list-group-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .clear-button{
+    margin-top: 10px;
+    width: 100px;
+}
