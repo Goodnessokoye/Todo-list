@@ -20,30 +20,35 @@
     <div class="container">
     <div class="header">
         <h3>
-            Task List
+            To Do List
         </h3>
-       <p class="new-task">
-        New Task
-       </p> 
-       <input class="MyInput" type="text">
+       <div class="box">
+        <input class="MyInput" placeholder= " Type in your task " type="text">
 
-       <button class="add-task-button">
-           Add Task
-       </button>
+        <button class="add-task-button">
+            Add Task
+        </button>
+          <button class="clear-button" > 
+            Clear Tasks
+        </button>
+        
+       </div>
+      
     </div>  
-    <div class="card" style="width: 100%;">
+    <div class="card-box">
+      <div class="card">
         <div class="card-header">
-          Tasks
+          Task List
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item" >Cras justo odio <i class="far fa-trash-alt"></i></li> 
-          <li class="list-group-item">Dapibus ac facilisis in <i class="far fa-trash-alt"></i></li>
-          <li class="list-group-item">Vestibulum at eros <i class="far fa-trash-alt"></i></li>
+          <li class="list-group-item" >Prepare my slides for PDP presentation <i class="far fa-trash-alt"></i></li> 
+          <li class="list-group-item">Review Project Plan for Scool<i class="far fa-trash-alt"></i></li>
+          <li class="list-group-item">Hit Chinenye's Kitchen <i class="far fa-trash-alt"></i></li>
         </ul>
       </div>
-      <button class="clear-button"> 
-          Clear Tasks
-      </button>
+    </div>
+     
+      
     </div>
     <script src="app.js"></script>
 </body>

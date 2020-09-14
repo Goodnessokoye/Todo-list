@@ -23,31 +23,27 @@ function clearTask(){
 
 //Add a task
 
-
 // // Create a new list item when clicking on the "Add" button
 document.querySelector(".add-task-button").addEventListener("click", newElement)
 function newElement() {
     var li = document.createElement("li");
     li.className ="list-group-item";
-    
 
     var inputValue = document.querySelector(".MyInput");
     li.appendChild(document.createTextNode(inputValue.value));
-    console.log(li)
- 
-    const i = document.createElement('i');
-    i.className ="far fa-trash-alt";
-    li.appendChild(i);
+    console.log(li);
 
-    // taskList.appendChild(li)
-
-    if (inputValue === '') {
+    if(inputValue.value === '') {
         alert("You must write something!");
       } else {
         document.querySelector(".list-group ").appendChild(li);
-      }
-      inputValue.value = '';
+      };
 
+    const i = document.createElement('i');
+    i.className ="far fa-trash-alt";
+    li.appendChild(i);
+   
+    inputValue.value = '';
     //   e.preventDefault();
     
 }
